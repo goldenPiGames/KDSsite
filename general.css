@@ -1,19 +1,70 @@
-
 body {
-	color : #FEFEFE;
-	background-color : #202020;
+	color : #BBB;
+	background-color: #191970;
 }
 a {
 	color : #00FFFF;
 }
-.gameBox {
-	overflow : hidden;
-	background-color: #000000;
-	border-color: #BBBBBB;
+
+.gamebox {
+	background-color: #194570;
+	border-color: #000;
+	border-width: 6px;
 	border-style: solid;
-	border-width: 0px;
+	border-radius: 4%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 20px 15px;
+	padding: 10px;
 }
-.gameBox.beam {
-	width : 804px;
-	height : 604px; 
+.gameiframe {
+	display: block;
+	overflow: hidden;
+	background-color: #000;
+	border-color: #BBB;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 2px;
+	margin: 10px 0 10px 20px;
+}
+
+#gamedescription {
+	max-width: 340px;
+	margin: 20px;
+}
+
+#title {
+	text-align: center;
+}
+
+#subtitle {
+	text-align: center;
+}
+
+#header {
+	height: 50px;
+	margin: 20px 10px 30px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: #000;
+	background-color: #451970;
+	border: 2px solid #194570;
+	border-radius: 2px;
+}
+
+#headertitle {
+	display: block;
+	color: #000;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+}
+
+#footer {
+	text-align: center;
+	color: #000;
+	background-color: #451970;
 }
